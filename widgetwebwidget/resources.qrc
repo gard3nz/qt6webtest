@@ -1,0 +1,46 @@
+<RCC>
+    <qresource prefix="/">
+        <file>index.html</file>
+        <file>images/header.jpg</file>
+        <file>images/pic01.jpg</file>
+        <file>images/pic02.jpg</file>
+        <file>images/pic03.jpg</file>
+        <file>assets/css/images/bottom-1280.svg</file>
+        <file>assets/css/images/bottom-1600.svg</file>
+        <file>assets/css/images/bottom-3200.svg</file>
+        <file>assets/css/images/overlay.png</file>
+        <file>assets/css/images/top-1280.svg</file>
+        <file>assets/css/images/top-1600.svg</file>
+        <file>assets/css/images/top-3200.svg</file>
+        <file>assets/css/images/xoverlay.png</file>
+        <file>assets/css/fontawesome-all.min.css</file>
+        <file>assets/css/main.css</file>
+        <file>assets/js/breakpoints.min.js</file>
+        <file>assets/js/browser.min.js</file>
+        <file>assets/js/jquery.min.js</file>
+        <file>assets/js/main.js</file>
+        <file>assets/js/util.js</file>
+        <file>assets/sass/libs/_breakpoints.scss</file>
+        <file>assets/sass/libs/_functions.scss</file>
+        <file>assets/sass/libs/_html-grid.scss</file>
+        <file>assets/sass/libs/_mixins.scss</file>
+        <file>assets/sass/libs/_vars.scss</file>
+        <file>assets/sass/libs/_vendor.scss</file>
+        <file>assets/sass/main.scss</file>
+        <file>assets/webfonts/fa-brands-400.eot</file>
+        <file>assets/webfonts/fa-brands-400.svg</file>
+        <file>assets/webfonts/fa-brands-400.ttf</file>
+        <file>assets/webfonts/fa-brands-400.woff</file>
+        <file>assets/webfonts/fa-brands-400.woff2</file>
+        <file>assets/webfonts/fa-regular-400.eot</file>
+        <file>assets/webfonts/fa-regular-400.svg</file>
+        <file>assets/webfonts/fa-regular-400.ttf</file>
+        <file>assets/webfonts/fa-regular-400.woff</file>
+        <file>assets/webfonts/fa-regular-400.woff2</file>
+        <file>assets/webfonts/fa-solid-900.eot</file>
+        <file>assets/webfonts/fa-solid-900.svg</file>
+        <file>assets/webfonts/fa-solid-900.ttf</file>
+        <file>assets/webfonts/fa-solid-900.woff</file>
+        <file>assets/webfonts/fa-solid-900.woff2</file>
+    </qresource>
+</RCC>
