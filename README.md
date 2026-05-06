@@ -13,6 +13,7 @@ resources.qrc — файл ресурсов.
 
 index.html, assets, images - шаблон  подгружаемого сайта.
 
+
 ##Для запуска требуется:
 1. Установленные QT 6.x с QtWebEngine
 2. Комплект сборки MSVC
