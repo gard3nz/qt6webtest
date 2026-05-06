@@ -7,9 +7,9 @@ main.cpp - точка входа.
 
 mainwindow.h / mainwindow.cpp - основное окно с упакованным в виджет QtWebEngine.
 
-mainwindow.ui — визуальный интерфейс.
+mainwindow.ui - визуальный интерфейс.
 
-resources.qrc — файл ресурсов.
+resources.qrc - файл ресурсов.
 
 index.html, assets, images - шаблон  подгружаемого сайта.
 
