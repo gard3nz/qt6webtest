@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<RCC>
+    <qresource prefix="/">
+        <file alias="js/canva.js">../../js/canva.js</file>
+        <file alias="js/config.js">../../js/config.js</file>
+        <file alias="js/event.js">../../js/event.js</file>
+        <file alias="js/events.js">../../js/events.js</file>
+        <file alias="js/export.js">../../js/export.js</file>
+        <file alias="js/history-panel.js">../../js/history-panel.js</file>
+        <file alias="js/main.js">../../js/main.js</file>
+        <file alias="js/state.js">../../js/state.js</file>
+        <file alias="js/text-editor.js">../../js/text-editor.js</file>
+        <file alias="js/tools.js">../../js/tools.js</file>
+        <file alias="js/transform.js">../../js/transform.js</file>
+        <file alias="js/utils.js">../../js/utils.js</file>
+        <file alias="app.js">../../app.js</file>
+        <file alias="index.html">../../index.html</file>
+        <file alias="style.css">../../style.css</file>
+    </qresource>
+</RCC>
