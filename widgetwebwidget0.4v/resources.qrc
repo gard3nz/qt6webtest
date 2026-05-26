@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>js/canva.js</file>
+        <file>js/config.js</file>
+        <file>js/event.js</file>
+        <file>js/events.js</file>
+        <file>js/export.js</file>
+        <file>js/history-panel.js</file>
+        <file>js/main.js</file>
+        <file>js/state.js</file>
+        <file>js/text-editor.js</file>
+        <file>js/tools.js</file>
+        <file>js/transform.js</file>
+        <file>js/utils.js</file>
+        <file>app.js</file>
+        <file>index.html</file>
+        <file>style.css</file>
+    </qresource>
+</RCC>
