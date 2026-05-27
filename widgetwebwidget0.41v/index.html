@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Редактор УГО</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/konva@9/konva.min.js"></script>
+</head>
+<body>
+    <div class="toolbar">
+<!--        <button id="pointer-btn" class="active" data-tool="pointer">👆 Указатель</button>
+        <div class="divider"></div>
+        <button data-tool="rect">⬜</button>
+        <button data-tool="square">🔳</button>
+        <button data-tool="circle">⚪</button>
+        <button data-tool="arc">🌙</button>
+        <button data-tool="line">📏</button>
+        <button data-tool="port">🔴</button>
+        <button data-tool="text">🔤</button>
+        <div class="divider"></div>-->
+        <!--<select id="font-family-select">
+            <option value="Arial">Arial</option>
+            <option value="Times New Roman">Times</option>
+            <option value="Courier New">Courier</option>
+        </select>
+        <input type="number" id="font-size-input" value="16" min="8" max="72">
+        <div class="divider"></div>-->
+        <input type="number" id="arc-radius" value="40" min="5" max="300" step="5">
+        <input type="number" id="arc-angle" value="90" min="1" max="360" step="1">
+        <div class="divider"></div>
+        <span>Сетка:</span>
+        <button id="grid-dec">➖</button>
+        <span id="grid-size-display">20</span>
+        <button id="grid-inc">➕</button>
+        <div class="divider"></div>
+        <input type="color" id="bg-color" value="#1e1e1e">
+        <input type="color" id="grid-color" value="#444444">
+        <input type="color" id="color-picker" value="#888888">
+        <div class="spacer"></div>
+        <button id="delete-btn">🗑</button>
+        <button id="undo-btn" disabled>↩️</button>
+        <button id="redo-btn" disabled>↪️</button>
+        <!--<button id="svg-btn">📤</button>
+        <button id="clear-btn">🧹</button>-->
+    </div>
+
+    <div class="editor-wrapper">
+        <div id="container"></div>
+
+        <!-- Панель истории -->
+        <div id="history-panel">
+            <div class="panel-header"> История действий</div>
+            <ul id="history-list"></ul>
+        </div>
+    </div>
+
+    <div id="text-overlay" style="display:none;position:absolute;z-index:1000;pointer-events:none;">
+        <input type="text" id="text-input" style="pointer-events:auto;">
+    </div>
+
+    <!--  контейнер для Konva -->
+    <!-- <div id="container"></div> -->
+
+    <!-- Оверлей для текста -->
+    <div id="text-overlay" style="display:none;position:absolute;z-index:1000;pointer-events:none;">
+        <input type="text" id="text-input" style="pointer-events:auto;">
+    </div>
+
+    <!-- Ссылка на app.js -->
+    <script src="js/main.js"></script>
+
+<!-- Панель истории действий -->
+<div id="history-panel">
+    <div class="panel-header"> История действий</div>
+    <ul id="history-list"></ul>
+</div>
+
+</body>
+</html>
